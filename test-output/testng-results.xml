@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="22" passed="8" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-07T21:26:28 IST" name="SmokeSuite" finished-at="2026-11-07T21:30:13 IST" duration-ms="224589">
+    <groups>
+    </groups>
+    <test started-at="2026-11-07T21:26:28 IST" name="Test" finished-at="2026-11-07T21:30:13 IST" duration-ms="224589">
+      <class name="Fossil.Tests.TC_001_AddProductToCartTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:Fossil.Tests.TC_001_AddProductToCartTest@246f8b8b]" started-at="2026-11-07T21:26:51 IST" name="bcConfig" finished-at="2026-11-07T21:27:04 IST" duration-ms="12654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Fossil.Tests.TC_001_AddProductToCartTest@246f8b8b]" started-at="2026-11-07T21:27:04 IST" name="bmConfig" finished-at="2026-11-07T21:27:05 IST" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="AddToCartTest()[pri:0, instance:Fossil.Tests.TC_001_AddProductToCartTest@246f8b8b]" started-at="2026-11-07T21:27:05 IST" name="AddToCartTest" finished-at="2026-11-07T21:27:19 IST" duration-ms="13468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Fossil.Tests.TC_001_AddProductToCartTest@246f8b8b]" started-at="2026-11-07T21:27:19 IST" name="amConfig" finished-at="2026-11-07T21:27:19 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:Fossil.Tests.TC_001_AddProductToCartTest@246f8b8b]" started-at="2026-11-07T21:27:19 IST" name="acConfig" finished-at="2026-11-07T21:27:20 IST" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- Fossil.Tests.TC_001_AddProductToCartTest -->
+      <class name="Fossil.Tests.TC_003_NavigateToCategories">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:Fossil.Tests.TC_003_NavigateToCategories@774698ab]" started-at="2026-11-07T21:27:20 IST" name="bcConfig" finished-at="2026-11-07T21:27:28 IST" duration-ms="8634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Fossil.Tests.TC_003_NavigateToCategories@774698ab]" started-at="2026-11-07T21:27:28 IST" name="bmConfig" finished-at="2026-11-07T21:27:30 IST" duration-ms="1121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="NavigateToSectionsTest(java.lang.String)[pri:0, instance:Fossil.Tests.TC_003_NavigateToCategories@774698ab]" started-at="2026-11-07T21:27:30 IST" name="NavigateToSectionsTest" data-provider="getData" finished-at="2026-11-07T21:27:33 IST" duration-ms="3172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jewelry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToSectionsTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Fossil.Tests.TC_003_NavigateToCategories@774698ab]" started-at="2026-11-07T21:27:33 IST" name="amConfig" finished-at="2026-11-07T21:27:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Fossil.Tests.TC_003_NavigateToCategories@774698ab]" started-at="2026-11-07T21:27:33 IST" name="bmConfig" finished-at="2026-11-07T21:27:53 IST" duration-ms="20032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="NavigateToSectionsTest(java.lang.String)[pri:0, instance:Fossil.Tests.TC_003_NavigateToCategories@774698ab]" started-at="2026-11-07T21:27:53 IST" name="NavigateToSectionsTest" data-provider="getData" finished-at="2026-11-07T21:27:54 IST" duration-ms="1696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mens]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToSectionsTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Fossil.Tests.TC_003_NavigateToCategories@774698ab]" started-at="2026-11-07T21:27:54 IST" name="amConfig" finished-at="2026-11-07T21:27:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Fossil.Tests.TC_003_NavigateToCategories@774698ab]" started-at="2026-11-07T21:27:54 IST" name="bmConfig" finished-at="2026-11-07T21:28:15 IST" duration-ms="20100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="NavigateToSectionsTest(java.lang.String)[pri:0, instance:Fossil.Tests.TC_003_NavigateToCategories@774698ab]" started-at="2026-11-07T21:28:15 IST" name="NavigateToSectionsTest" data-provider="getData" finished-at="2026-11-07T21:28:16 IST" duration-ms="1483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bags]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToSectionsTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Fossil.Tests.TC_003_NavigateToCategories@774698ab]" started-at="2026-11-07T21:28:16 IST" name="amConfig" finished-at="2026-11-07T21:28:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Fossil.Tests.TC_003_NavigateToCategories@774698ab]" started-at="2026-11-07T21:28:16 IST" name="bmConfig" finished-at="2026-11-07T21:28:36 IST" duration-ms="20019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="NavigateToSectionsTest(java.lang.String)[pri:0, instance:Fossil.Tests.TC_003_NavigateToCategories@774698ab]" started-at="2026-11-07T21:28:36 IST" name="NavigateToSectionsTest" data-provider="getData" finished-at="2026-11-07T21:28:38 IST" duration-ms="2035" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Womens]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=156.0.8078.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd0e233cd7c8772a1499a220c7d14383, getElementText {id=f.D40F95A68A0A6F8924AC3AE0E4F18418.d.A76F921C4BB23D118C2F162AC36FD50F.e.4374}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.80, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\vemul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51637}, goog:processID: 32592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51637/devtoo..., se:cdpVersion: 156.0.8078.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (cd0e233cd7c8772a1499a220c7d14383)] -> xpath: //ol[contains(@class,'plp-breadcrumb')]/descendant::a]
+Session ID: cd0e233cd7c8772a1499a220c7d14383]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=156.0.8078.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd0e233cd7c8772a1499a220c7d14383, getElementText {id=f.D40F95A68A0A6F8924AC3AE0E4F18418.d.A76F921C4BB23D118C2F162AC36FD50F.e.4374}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.80, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\vemul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51637}, goog:processID: 32592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51637/devtoo..., se:cdpVersion: 156.0.8078.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (cd0e233cd7c8772a1499a220c7d14383)] -> xpath: //ol[contains(@class,'plp-breadcrumb')]/descendant::a]
+Session ID: cd0e233cd7c8772a1499a220c7d14383
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:253)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:193)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+at Fossil.Tests.TC_003_NavigateToCategories.lambda$0(TC_003_NavigateToCategories.java:43)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+at Fossil.Tests.TC_003_NavigateToCategories.NavigateToSectionsTest(TC_003_NavigateToCategories.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToSectionsTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Fossil.Tests.TC_003_NavigateToCategories@774698ab]" started-at="2026-11-07T21:28:39 IST" name="amConfig" finished-at="2026-11-07T21:28:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:Fossil.Tests.TC_003_NavigateToCategories@774698ab]" started-at="2026-11-07T21:28:39 IST" name="acConfig" finished-at="2026-11-07T21:28:41 IST" duration-ms="2366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- Fossil.Tests.TC_003_NavigateToCategories -->
+      <class name="Fossil.Tests.TC_004_Apply_FiltersTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:Fossil.Tests.TC_004_Apply_FiltersTest@4ba302e0]" started-at="2026-11-07T21:26:28 IST" name="bsConfig" finished-at="2026-11-07T21:26:28 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:Fossil.Tests.TC_004_Apply_FiltersTest@4ba302e0]" started-at="2026-11-07T21:26:29 IST" name="bcConfig" finished-at="2026-11-07T21:26:42 IST" duration-ms="12905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Fossil.Tests.TC_004_Apply_FiltersTest@4ba302e0]" started-at="2026-11-07T21:26:42 IST" name="bmConfig" finished-at="2026-11-07T21:26:43 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="CheckFiltersTest()[pri:0, instance:Fossil.Tests.TC_004_Apply_FiltersTest@4ba302e0]" started-at="2026-11-07T21:26:43 IST" name="CheckFiltersTest" finished-at="2026-11-07T21:26:49 IST" duration-ms="6268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckFiltersTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Fossil.Tests.TC_004_Apply_FiltersTest@4ba302e0]" started-at="2026-11-07T21:26:49 IST" name="amConfig" finished-at="2026-11-07T21:26:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:Fossil.Tests.TC_004_Apply_FiltersTest@4ba302e0]" started-at="2026-11-07T21:26:49 IST" name="acConfig" finished-at="2026-11-07T21:26:51 IST" duration-ms="2277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:Fossil.Tests.TC_004_Apply_FiltersTest@4ba302e0]" started-at="2026-11-07T21:30:13 IST" name="asConfig" finished-at="2026-11-07T21:30:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- Fossil.Tests.TC_004_Apply_FiltersTest -->
+      <class name="Fossil.Tests.TC_007">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:Fossil.Tests.TC_007@20a14b55]" started-at="2026-11-07T21:29:33 IST" name="bcConfig" finished-at="2026-11-07T21:29:41 IST" duration-ms="7761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Fossil.Tests.TC_007@20a14b55]" started-at="2026-11-07T21:29:41 IST" name="bmConfig" finished-at="2026-11-07T21:29:43 IST" duration-ms="1477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="CheckQuantity()[pri:0, instance:Fossil.Tests.TC_007@20a14b55]" started-at="2026-11-07T21:29:43 IST" name="CheckQuantity" finished-at="2026-11-07T21:29:57 IST" duration-ms="14135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckQuantity -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Fossil.Tests.TC_007@20a14b55]" started-at="2026-11-07T21:29:57 IST" name="amConfig" finished-at="2026-11-07T21:29:57 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:Fossil.Tests.TC_007@20a14b55]" started-at="2026-11-07T21:29:57 IST" name="acConfig" finished-at="2026-11-07T21:29:58 IST" duration-ms="1447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- Fossil.Tests.TC_007 -->
+      <class name="Fossil.Tests.NG002_InvalidProductSearchTest">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:Fossil.Tests.NG002_InvalidProductSearchTest@6b44435b]" started-at="2026-11-07T21:28:41 IST" name="bcConfig" finished-at="2026-11-07T21:28:54 IST" duration-ms="13273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Fossil.Tests.NG002_InvalidProductSearchTest@6b44435b]" started-at="2026-11-07T21:28:54 IST" name="bmConfig" finished-at="2026-11-07T21:28:58 IST" duration-ms="3530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="InvalidProductSearchTest()[pri:0, instance:Fossil.Tests.NG002_InvalidProductSearchTest@6b44435b]" started-at="2026-11-07T21:28:58 IST" name="InvalidProductSearchTest" finished-at="2026-11-07T21:29:11 IST" duration-ms="12837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidProductSearchTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Fossil.Tests.NG002_InvalidProductSearchTest@6b44435b]" started-at="2026-11-07T21:29:11 IST" name="amConfig" finished-at="2026-11-07T21:29:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:Fossil.Tests.NG002_InvalidProductSearchTest@6b44435b]" started-at="2026-11-07T21:29:11 IST" name="acConfig" finished-at="2026-11-07T21:29:13 IST" duration-ms="2256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- Fossil.Tests.NG002_InvalidProductSearchTest -->
+      <class name="Fossil.Tests.TC_005_PLP_to_PDP">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:Fossil.Tests.TC_005_PLP_to_PDP@5bd82fed]" started-at="2026-11-07T21:29:13 IST" name="bcConfig" finished-at="2026-11-07T21:29:20 IST" duration-ms="7106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Fossil.Tests.TC_005_PLP_to_PDP@5bd82fed]" started-at="2026-11-07T21:29:20 IST" name="bmConfig" finished-at="2026-11-07T21:29:23 IST" duration-ms="3172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="NavigateFromPlpToPDPTest()[pri:0, instance:Fossil.Tests.TC_005_PLP_to_PDP@5bd82fed]" started-at="2026-11-07T21:29:23 IST" name="NavigateFromPlpToPDPTest" finished-at="2026-11-07T21:29:33 IST" duration-ms="9408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateFromPlpToPDPTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Fossil.Tests.TC_005_PLP_to_PDP@5bd82fed]" started-at="2026-11-07T21:29:33 IST" name="amConfig" finished-at="2026-11-07T21:29:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:Fossil.Tests.TC_005_PLP_to_PDP@5bd82fed]" started-at="2026-11-07T21:29:33 IST" name="acConfig" finished-at="2026-11-07T21:29:33 IST" duration-ms="698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- Fossil.Tests.TC_005_PLP_to_PDP -->
+      <class name="Fossil.Tests.TC_006_SortByPrice">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:Fossil.Tests.TC_006_SortByPrice@3a3e4aff]" started-at="2026-11-07T21:29:58 IST" name="bcConfig" finished-at="2026-11-07T21:30:05 IST" duration-ms="7104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:Fossil.Tests.TC_006_SortByPrice@3a3e4aff]" started-at="2026-11-07T21:30:05 IST" name="bmConfig" finished-at="2026-11-07T21:30:07 IST" duration-ms="1263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="SortProductsTest()[pri:0, instance:Fossil.Tests.TC_006_SortByPrice@3a3e4aff]" started-at="2026-11-07T21:30:07 IST" name="SortProductsTest" finished-at="2026-11-07T21:30:10 IST" duration-ms="3865" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element is not clickable at point (207, 690)
+  (Session info: chrome=156.0.8078.80)
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c75d9225afcd1606683f8db2eb9350b2, clickElement {id=f.7C24DB81E08D48A0F3A62F675BBF6587.d.C82B80F81E2A8E1FCACA2594D35D065D.e.1420}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.80, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\vemul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60102}, goog:processID: 42368, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60102/devtoo..., se:cdpVersion: 156.0.8078.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c75d9225afcd1606683f8db2eb9350b2)] -> xpath: //div[@class='plp-price-inputs']/descendant::input]
+Session ID: c75d9225afcd1606683f8db2eb9350b2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (207, 690)
+  (Session info: chrome=156.0.8078.80)
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c75d9225afcd1606683f8db2eb9350b2, clickElement {id=f.7C24DB81E08D48A0F3A62F675BBF6587.d.C82B80F81E2A8E1FCACA2594D35D065D.e.1420}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.80, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\vemul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60102}, goog:processID: 42368, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60102/devtoo..., se:cdpVersion: 156.0.8078.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c75d9225afcd1606683f8db2eb9350b2)] -> xpath: //div[@class='plp-price-inputs']/descendant::input]
+Session ID: c75d9225afcd1606683f8db2eb9350b2
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:253)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+at Fossil.Tests.TC_006_SortByPrice.SortProductsTest(TC_006_SortByPrice.java:56)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortProductsTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:Fossil.Tests.TC_006_SortByPrice@3a3e4aff]" started-at="2026-11-07T21:30:11 IST" name="amConfig" finished-at="2026-11-07T21:30:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:Fossil.Tests.TC_006_SortByPrice@3a3e4aff]" started-at="2026-11-07T21:30:11 IST" name="acConfig" finished-at="2026-11-07T21:30:13 IST" duration-ms="1526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+      </class> <!-- Fossil.Tests.TC_006_SortByPrice -->
+    </test> <!-- Test -->
+  </suite> <!-- SmokeSuite -->
+</testng-results>

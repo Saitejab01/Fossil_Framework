@@ -1,0 +1,14 @@
+
+<suite name="SmokeSuite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Fossil.Tests.TC_004_Apply_FiltersTest"/>
+      <class name="Fossil.Tests.TC_001_AddProductToCartTest"/>
+      <class name="Fossil.Tests.TC_003_NavigateToCategories"/>
+      <class name="Fossil.Tests.NG002_InvalidProductSearchTest"/>
+      <class name="Fossil.Tests.TC_005_PLP_to_PDP"/>
+      <class name="Fossil.Tests.TC_007"/>
+      <class name="Fossil.Tests.TC_006_SortByPrice"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- SmokeSuite -->

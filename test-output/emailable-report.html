@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">SmokeSuite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">224,589</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SmokeSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Fossil.Tests.TC_003_NavigateToCategories</td><td><a href="#m0">NavigateToSectionsTest</a></td><td rowspan="1">1794067116565</td><td rowspan="1">2035</td></tr><tr class="failedodd"><td rowspan="1">Fossil.Tests.TC_006_SortByPrice</td><td><a href="#m1">SortProductsTest</a></td><td rowspan="1">1794067207074</td><td rowspan="1">3865</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Fossil.Tests.NG002_InvalidProductSearchTest</td><td><a href="#m2">InvalidProductSearchTest</a></td><td rowspan="1">1794067138366</td><td rowspan="1">12837</td></tr><tr class="passedodd"><td rowspan="1">Fossil.Tests.TC_001_AddProductToCartTest</td><td><a href="#m3">AddToCartTest</a></td><td rowspan="1">1794067025835</td><td rowspan="1">13468</td></tr><tr class="passedeven"><td rowspan="3">Fossil.Tests.TC_003_NavigateToCategories</td><td><a href="#m4">NavigateToSectionsTest</a></td><td rowspan="3">1794067073259</td><td rowspan="3">1696</td></tr><tr class="passedeven"><td><a href="#m5">NavigateToSectionsTest</a></td></tr><tr class="passedeven"><td><a href="#m6">NavigateToSectionsTest</a></td></tr><tr class="passedodd"><td rowspan="1">Fossil.Tests.TC_004_Apply_FiltersTest</td><td><a href="#m7">CheckFiltersTest</a></td><td rowspan="1">1794067003364</td><td rowspan="1">6268</td></tr><tr class="passedeven"><td rowspan="1">Fossil.Tests.TC_005_PLP_to_PDP</td><td><a href="#m8">NavigateFromPlpToPDPTest</a></td><td rowspan="1">1794067163743</td><td rowspan="1">9408</td></tr><tr class="passedodd"><td rowspan="1">Fossil.Tests.TC_007</td><td><a href="#m9">CheckQuantity</a></td><td rowspan="1">1794067183110</td><td rowspan="1">14135</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">Fossil.Tests.TC_003_NavigateToCategories#NavigateToSectionsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Womens</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=156.0.8078.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: &apos;4.52.0&apos;, revision: &apos;5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd0e233cd7c8772a1499a220c7d14383, getElementText {id=f.D40F95A68A0A6F8924AC3AE0E4F18418.d.A76F921C4BB23D118C2F162AC36FD50F.e.4374}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.80, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\vemul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51637}, goog:processID: 32592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51637/devtoo..., se:cdpVersion: 156.0.8078.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (cd0e233cd7c8772a1499a220c7d14383)] -&gt; xpath: //ol[contains(@class,&apos;plp-breadcrumb&apos;)]/descendant::a]
+Session ID: cd0e233cd7c8772a1499a220c7d14383
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:253)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:193)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at Fossil.Tests.TC_003_NavigateToCategories.lambda$0(TC_003_NavigateToCategories.java:43)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	at Fossil.Tests.TC_003_NavigateToCategories.NavigateToSectionsTest(TC_003_NavigateToCategories.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Fossil.Tests.TC_006_SortByPrice#SortProductsTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (207, 690)
+  (Session info: chrome=156.0.8078.80)
+Build info: version: &apos;4.52.0&apos;, revision: &apos;5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c75d9225afcd1606683f8db2eb9350b2, clickElement {id=f.7C24DB81E08D48A0F3A62F675BBF6587.d.C82B80F81E2A8E1FCACA2594D35D065D.e.1420}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.80, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\vemul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60102}, goog:processID: 42368, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60102/devtoo..., se:cdpVersion: 156.0.8078.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c75d9225afcd1606683f8db2eb9350b2)] -&gt; xpath: //div[@class=&apos;plp-price-inputs&apos;]/descendant::input]
+Session ID: c75d9225afcd1606683f8db2eb9350b2
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:253)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at Fossil.Tests.TC_006_SortByPrice.SortProductsTest(TC_006_SortByPrice.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Fossil.Tests.NG002_InvalidProductSearchTest#InvalidProductSearchTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Fossil.Tests.TC_001_AddProductToCartTest#AddToCartTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Fossil.Tests.TC_003_NavigateToCategories#NavigateToSectionsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Mens</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Fossil.Tests.TC_003_NavigateToCategories#NavigateToSectionsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Jewelry</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Fossil.Tests.TC_003_NavigateToCategories#NavigateToSectionsTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Bags</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Fossil.Tests.TC_004_Apply_FiltersTest#CheckFiltersTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Fossil.Tests.TC_005_PLP_to_PDP#NavigateFromPlpToPDPTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">Fossil.Tests.TC_007#CheckQuantity</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SmokeSuite" class="navigator-link">
+              <span class="suite-name border-failed">SmokeSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SmokeSuite" class="navigator-link ">
+                    <span>C:\Users\vemul\eclipse-workspace\.metadata\Fossil.AutomationFramework\Testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SmokeSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SmokeSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SmokeSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SmokeSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SmokeSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SmokeSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 2 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SmokeSuite" class="hide-methods failed suite-SmokeSuite"> (hide)</a> <!-- hide-methods failed suite-SmokeSuite -->
+                      <a href="#" panel-name="suite-SmokeSuite" class="show-methods failed suite-SmokeSuite"> (show)</a> <!-- show-methods failed suite-SmokeSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-SmokeSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeSuite" title="Fossil.Tests.TC_003_NavigateToCategories" class="method navigator-link" hash-for-method="NavigateToSectionsTest(Womens)">NavigateToSectionsTest(Womens)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeSuite" title="Fossil.Tests.TC_006_SortByPrice" class="method navigator-link" hash-for-method="SortProductsTest">SortProductsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SmokeSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SmokeSuite" class="hide-methods passed suite-SmokeSuite"> (hide)</a> <!-- hide-methods passed suite-SmokeSuite -->
+                      <a href="#" panel-name="suite-SmokeSuite" class="show-methods passed suite-SmokeSuite"> (show)</a> <!-- show-methods passed suite-SmokeSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-SmokeSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeSuite" title="Fossil.Tests.TC_001_AddProductToCartTest" class="method navigator-link" hash-for-method="AddToCartTest">AddToCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeSuite" title="Fossil.Tests.TC_004_Apply_FiltersTest" class="method navigator-link" hash-for-method="CheckFiltersTest">CheckFiltersTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeSuite" title="Fossil.Tests.TC_007" class="method navigator-link" hash-for-method="CheckQuantity">CheckQuantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeSuite" title="Fossil.Tests.NG002_InvalidProductSearchTest" class="method navigator-link" hash-for-method="InvalidProductSearchTest">InvalidProductSearchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeSuite" title="Fossil.Tests.TC_005_PLP_to_PDP" class="method navigator-link" hash-for-method="NavigateFromPlpToPDPTest">NavigateFromPlpToPDPTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeSuite" title="Fossil.Tests.TC_003_NavigateToCategories" class="method navigator-link" hash-for-method="NavigateToSectionsTest(Mens)">NavigateToSectionsTest(Mens)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeSuite" title="Fossil.Tests.TC_003_NavigateToCategories" class="method navigator-link" hash-for-method="NavigateToSectionsTest(Jewelry)">NavigateToSectionsTest(Jewelry)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SmokeSuite" title="Fossil.Tests.TC_003_NavigateToCategories" class="method navigator-link" hash-for-method="NavigateToSectionsTest(Bags)">NavigateToSectionsTest(Bags)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SmokeSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SmokeSuite" class="panel SmokeSuite">
+          <div class="suite-SmokeSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Fossil.Tests.TC_006_SortByPrice</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SortProductsTest">
+                  </a> <!-- SortProductsTest -->
+                  <span class="method-name">SortProductsTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (207, 690)
+  (Session info: chrome=156.0.8078.80)
+Build info: version: &apos;4.52.0&apos;, revision: &apos;5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c75d9225afcd1606683f8db2eb9350b2, clickElement {id=f.7C24DB81E08D48A0F3A62F675BBF6587.d.C82B80F81E2A8E1FCACA2594D35D065D.e.1420}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.80, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\vemul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60102}, goog:processID: 42368, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60102/devtoo..., se:cdpVersion: 156.0.8078.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c75d9225afcd1606683f8db2eb9350b2)] -&gt; xpath: //div[@class=&apos;plp-price-inputs&apos;]/descendant::input]
+Session ID: c75d9225afcd1606683f8db2eb9350b2
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:253)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at Fossil.Tests.TC_006_SortByPrice.SortProductsTest(TC_006_SortByPrice.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeSuite-class-failed -->
+          <div class="suite-SmokeSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Fossil.Tests.TC_003_NavigateToCategories</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateToSectionsTest(Womens)">
+                  </a> <!-- NavigateToSectionsTest(Womens) -->
+                  <span class="method-name">NavigateToSectionsTest</span>
+                  <span class="parameters">(Womens)</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=156.0.8078.80)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: &apos;4.52.0&apos;, revision: &apos;5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cd0e233cd7c8772a1499a220c7d14383, getElementText {id=f.D40F95A68A0A6F8924AC3AE0E4F18418.d.A76F921C4BB23D118C2F162AC36FD50F.e.4374}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.80, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\vemul\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51637}, goog:processID: 32592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51637/devtoo..., se:cdpVersion: 156.0.8078.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (cd0e233cd7c8772a1499a220c7d14383)] -&gt; xpath: //ol[contains(@class,&apos;plp-breadcrumb&apos;)]/descendant::a]
+Session ID: cd0e233cd7c8772a1499a220c7d14383
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:253)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:193)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at Fossil.Tests.TC_003_NavigateToCategories.lambda$0(TC_003_NavigateToCategories.java:43)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
+	at Fossil.Tests.TC_003_NavigateToCategories.NavigateToSectionsTest(TC_003_NavigateToCategories.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeSuite-class-failed -->
+          <div class="suite-SmokeSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Fossil.Tests.TC_005_PLP_to_PDP</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateFromPlpToPDPTest">
+                  </a> <!-- NavigateFromPlpToPDPTest -->
+                  <span class="method-name">NavigateFromPlpToPDPTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeSuite-class-passed -->
+          <div class="suite-SmokeSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Fossil.Tests.TC_001_AddProductToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddToCartTest">
+                  </a> <!-- AddToCartTest -->
+                  <span class="method-name">AddToCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeSuite-class-passed -->
+          <div class="suite-SmokeSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Fossil.Tests.TC_003_NavigateToCategories</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateToSectionsTest(Mens)">
+                  </a> <!-- NavigateToSectionsTest(Mens) -->
+                  <span class="method-name">NavigateToSectionsTest</span>
+                  <span class="parameters">(Mens)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateToSectionsTest(Jewelry)">
+                  </a> <!-- NavigateToSectionsTest(Jewelry) -->
+                  <span class="method-name">NavigateToSectionsTest</span>
+                  <span class="parameters">(Jewelry)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateToSectionsTest(Bags)">
+                  </a> <!-- NavigateToSectionsTest(Bags) -->
+                  <span class="method-name">NavigateToSectionsTest</span>
+                  <span class="parameters">(Bags)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeSuite-class-passed -->
+          <div class="suite-SmokeSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Fossil.Tests.NG002_InvalidProductSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="InvalidProductSearchTest">
+                  </a> <!-- InvalidProductSearchTest -->
+                  <span class="method-name">InvalidProductSearchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeSuite-class-passed -->
+          <div class="suite-SmokeSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Fossil.Tests.TC_004_Apply_FiltersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckFiltersTest">
+                  </a> <!-- CheckFiltersTest -->
+                  <span class="method-name">CheckFiltersTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeSuite-class-passed -->
+          <div class="suite-SmokeSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Fossil.Tests.TC_007</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckQuantity">
+                  </a> <!-- CheckQuantity -->
+                  <span class="method-name">CheckQuantity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SmokeSuite-class-passed -->
+        </div> <!-- panel SmokeSuite -->
+        <div panel-name="test-xml-SmokeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\vemul\eclipse-workspace\.metadata\Fossil.AutomationFramework\Testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SmokeSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Fossil.Tests.TC_004_Apply_FiltersTest&quot;/&gt;
+      &lt;class name=&quot;Fossil.Tests.TC_001_AddProductToCartTest&quot;/&gt;
+      &lt;class name=&quot;Fossil.Tests.TC_003_NavigateToCategories&quot;/&gt;
+      &lt;class name=&quot;Fossil.Tests.NG002_InvalidProductSearchTest&quot;/&gt;
+      &lt;class name=&quot;Fossil.Tests.TC_005_PLP_to_PDP&quot;/&gt;
+      &lt;class name=&quot;Fossil.Tests.TC_007&quot;/&gt;
+      &lt;class name=&quot;Fossil.Tests.TC_006_SortByPrice&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- SmokeSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SmokeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SmokeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SmokeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SmokeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SmokeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SmokeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SmokeSuite');
+function tableData_SmokeSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'CheckQuantity')
+data.setCell(0, 2, 'Fossil.Tests.TC_007')
+data.setCell(0, 3, 14135);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'AddToCartTest')
+data.setCell(1, 2, 'Fossil.Tests.TC_001_AddProductToCartTest')
+data.setCell(1, 3, 13468);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'InvalidProductSearchTest')
+data.setCell(2, 2, 'Fossil.Tests.NG002_InvalidProductSearchTest')
+data.setCell(2, 3, 12837);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'NavigateFromPlpToPDPTest')
+data.setCell(3, 2, 'Fossil.Tests.TC_005_PLP_to_PDP')
+data.setCell(3, 3, 9408);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'CheckFiltersTest')
+data.setCell(4, 2, 'Fossil.Tests.TC_004_Apply_FiltersTest')
+data.setCell(4, 3, 6268);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SortProductsTest')
+data.setCell(5, 2, 'Fossil.Tests.TC_006_SortByPrice')
+data.setCell(5, 3, 3865);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'NavigateToSectionsTest')
+data.setCell(6, 2, 'Fossil.Tests.TC_003_NavigateToCategories')
+data.setCell(6, 3, 3172);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'NavigateToSectionsTest')
+data.setCell(7, 2, 'Fossil.Tests.TC_003_NavigateToCategories')
+data.setCell(7, 3, 2035);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'NavigateToSectionsTest')
+data.setCell(8, 2, 'Fossil.Tests.TC_003_NavigateToCategories')
+data.setCell(8, 3, 1696);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'NavigateToSectionsTest')
+data.setCell(9, 2, 'Fossil.Tests.TC_003_NavigateToCategories')
+data.setCell(9, 3, 1483);
+window.suiteTableData['SmokeSuite']= { tableData: data, tableDiv: 'times-div-SmokeSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-SmokeSuite">
+              </div> <!-- times-div-SmokeSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SmokeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SmokeSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SmokeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Fossil.Tests.TC_006_SortByPrice</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">asConfig</span>
+                <br/>
+                <span class="ignored-method-name">bsConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Fossil.Tests.TC_005_PLP_to_PDP</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">asConfig</span>
+                <br/>
+                <span class="ignored-method-name">bsConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Fossil.Tests.TC_001_AddProductToCartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">asConfig</span>
+                <br/>
+                <span class="ignored-method-name">bsConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Fossil.Tests.TC_003_NavigateToCategories</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">asConfig</span>
+                <br/>
+                <span class="ignored-method-name">bsConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Fossil.Tests.NG002_InvalidProductSearchTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">asConfig</span>
+                <br/>
+                <span class="ignored-method-name">bsConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Fossil.Tests.TC_007</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">asConfig</span>
+                <br/>
+                <span class="ignored-method-name">bsConfig</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SmokeSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Fossil.Tests.TC_004_Apply_FiltersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">bsConfig</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">bcConfig</span>
+                <span class="method-start">1270 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">bmConfig</span>
+                <span class="method-start">14228 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CheckFiltersTest</span>
+                <span class="method-start">14994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">amConfig</span>
+                <span class="method-start">21333 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">acConfig</span>
+                <span class="method-start">21336 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Fossil.Tests.TC_001_AddProductToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">bcConfig</span>
+                <span class="method-start">23617 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">bmConfig</span>
+                <span class="method-start">36272 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AddToCartTest</span>
+                <span class="method-start">37465 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">amConfig</span>
+                <span class="method-start">50938 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">acConfig</span>
+                <span class="method-start">50941 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Fossil.Tests.TC_003_NavigateToCategories</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">bcConfig</span>
+                <span class="method-start">51726 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">bmConfig</span>
+                <span class="method-start">60551 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">NavigateToSectionsTest(Jewelry)</span>
+                <span class="method-start">61673 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">amConfig</span>
+                <span class="method-start">64854 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bmConfig</span>
+                <span class="method-start">64857 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">NavigateToSectionsTest(Mens)</span>
+                <span class="method-start">84889 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">amConfig</span>
+                <span class="method-start">86588 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bmConfig</span>
+                <span class="method-start">86588 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">NavigateToSectionsTest(Bags)</span>
+                <span class="method-start">106688 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">amConfig</span>
+                <span class="method-start">108174 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bmConfig</span>
+                <span class="method-start">108175 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">NavigateToSectionsTest(Womens)</span>
+                <span class="method-start">128195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">amConfig</span>
+                <span class="method-start">130824 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">acConfig</span>
+                <span class="method-start">130825 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Fossil.Tests.NG002_InvalidProductSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">bcConfig</span>
+                <span class="method-start">133191 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">bmConfig</span>
+                <span class="method-start">146466 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InvalidProductSearchTest</span>
+                <span class="method-start">149996 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">amConfig</span>
+                <span class="method-start">162836 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">acConfig</span>
+                <span class="method-start">162837 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Fossil.Tests.TC_005_PLP_to_PDP</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">bcConfig</span>
+                <span class="method-start">165094 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">bmConfig</span>
+                <span class="method-start">172201 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">NavigateFromPlpToPDPTest</span>
+                <span class="method-start">175373 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">amConfig</span>
+                <span class="method-start">184801 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">acConfig</span>
+                <span class="method-start">184803 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Fossil.Tests.TC_007</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">bcConfig</span>
+                <span class="method-start">185501 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">bmConfig</span>
+                <span class="method-start">193263 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CheckQuantity</span>
+                <span class="method-start">194740 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">amConfig</span>
+                <span class="method-start">208884 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">acConfig</span>
+                <span class="method-start">208889 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Fossil.Tests.TC_006_SortByPrice</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">bcConfig</span>
+                <span class="method-start">210336 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">bmConfig</span>
+                <span class="method-start">217441 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SortProductsTest</span>
+                <span class="method-start">218704 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">amConfig</span>
+                <span class="method-start">223119 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">acConfig</span>
+                <span class="method-start">223121 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Fossil.Tests.TC_004_Apply_FiltersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">asConfig</span>
+                <span class="method-start">225619 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
